@@ -206,7 +206,7 @@ class _ThemeCardState extends State<_ThemeCard>
           clipBehavior: Clip.hardEdge,
           child: Stack(
             children: [
-              // Decorative large emoji in background
+              // Decorative large icon in background
               Positioned(
                 right: -12,
                 top: -8,
