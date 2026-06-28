@@ -1,0 +1,9 @@
+// Placeholder file to ensure the assets/audio directory is included in the build.
+// Add your audio files here:
+// - tap.mp3
+// - word_found.mp3
+// - level_complete.mp3
+// - hint.mp3
+// - star.mp3
+// - button.mp3
+// - background_music.mp3
