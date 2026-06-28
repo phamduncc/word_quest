@@ -165,11 +165,12 @@ class AchievementsScreen extends ConsumerWidget {
               borderRadius: BorderRadius.circular(12),
             ),
             child: Center(
-              child: Text(
-                achievement.isUnlocked ? achievement.icon : '🔒',
-                style: TextStyle(
-                  fontSize: achievement.isUnlocked ? 24 : 20,
-                ),
+              child: Icon(
+                achievement.isUnlocked ? achievement.icon : Icons.lock_rounded,
+                size: achievement.isUnlocked ? 28 : 24,
+                color: achievement.isUnlocked
+                    ? const Color(0xFFFFB300)
+                    : (isDark ? Colors.white38 : Colors.grey.shade500),
               ),
             ),
           ),
